@@ -10,20 +10,20 @@
 
 @implementation TouchPainterAppDelegate
 
-@synthesize window=window_;
-
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
   
+    
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    [self.window makeKeyAndVisible];
+    
   // Add the view controller's view to the window and display.
-  CoordinatingController *coordinatingController = [CoordinatingController sharedInstance];
-  UIView *view = [[coordinatingController activeViewController] view];
-  [window_ addSubview:view];
-  [window_ makeKeyAndVisible];
-  
+    self.window.rootViewController = [[CoordinatingController sharedInstance] activeViewController];
+    
+    
   return YES;
 }
 
@@ -74,13 +74,5 @@
    Free up as much memory as possible by purging cached data objects that can be recreated (or reloaded from disk) later.
    */
 }
-
-
-- (void)dealloc 
-{
-  [window_ release];
-  [super dealloc];
-}
-
 
 @end

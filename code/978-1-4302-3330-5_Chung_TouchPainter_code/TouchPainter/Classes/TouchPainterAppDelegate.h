@@ -10,11 +10,6 @@
 #import "CoordinatingController.h"
 
 @interface TouchPainterAppDelegate : NSObject <UIApplicationDelegate> 
-{
-    UIWindow *window_;
-}
-
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-
+@property (nonatomic, strong) UIWindow *window;
 @end
 

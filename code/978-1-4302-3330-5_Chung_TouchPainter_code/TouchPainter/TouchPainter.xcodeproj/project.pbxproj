@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* TouchPainterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TouchPainterAppDelegate.m */; };
-		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D3623260D0F684500981E51 /* TouchPainterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TouchPainterAppDelegate.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		230B52A8126360C1002B7508 /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 230B52A7126360C1002B7508 /* NSMutableArray+Stack.m */; };
@@ -57,7 +57,7 @@
 		23EEF9A8126C9F90003F5BF7 /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EEF9A6126C9F90003F5BF7 /* CoordinatingController.m */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		2899E5220DE3E06400AC0155 /* TouchPainterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* TouchPainterViewController.xib */; };
-		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		86FB45CE29BE169200839951 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86FB45CD29BE169200839951 /* Launch Screen.storyboard */; };
 		8B1F9EAA130D941F00FF009E /* redo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F9EA8130D941F00FF009E /* redo.png */; };
 		8B1F9EAB130D941F00FF009E /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F9EA9130D941F00FF009E /* undo.png */; };
 		8B3B491A12D6BBA2003BA61D /* MarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B491912D6BBA2003BA61D /* MarkEnumerator.m */; };
@@ -150,9 +150,9 @@
 		23EEF9A6126C9F90003F5BF7 /* CoordinatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* TouchPainterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TouchPainterViewController.xib; sourceTree = "<group>"; };
-		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* TouchPainter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchPainter_Prefix.pch; sourceTree = "<group>"; };
+		86FB45CD29BE169200839951 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8B1F9EA8130D941F00FF009E /* redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redo.png; path = Resources/Images/redo.png; sourceTree = "<group>"; };
 		8B1F9EA9130D941F00FF009E /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = undo.png; path = Resources/Images/undo.png; sourceTree = "<group>"; };
 		8B3B491812D6BBA2003BA61D /* MarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkEnumerator.h; sourceTree = "<group>"; };
@@ -441,10 +441,10 @@
 			children = (
 				23BFDFBA1220C50F005A882E /* Images */,
 				2899E5210DE3E06400AC0155 /* TouchPainterViewController.xib */,
-				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* TouchPainter-Info.plist */,
 				2374FE831225B0EB00AECD8F /* BridgeView.xib */,
 				2374FEA01225BCC300AECD8F /* BridgeViewIpad.xib */,
+				86FB45CD29BE169200839951 /* Launch Screen.storyboard */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -530,7 +530,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* TouchPainterViewController.xib in Resources */,
 				23BFDFBE1220C910005A882E /* save.png in Resources */,
 				23BFDFC01220C92A005A882E /* open.png in Resources */,
@@ -541,6 +540,7 @@
 				23EEF99F126C9EEE003F5BF7 /* PaletteViewController.xib in Resources */,
 				23EEF9A4126C9EFA003F5BF7 /* ThumbnailViewController.xib in Resources */,
 				231452ED126D4EB600E73CFB /* large_dot.png in Resources */,
+				86FB45CE29BE169200839951 /* Launch Screen.storyboard in Resources */,
 				231452EE126D4EB600E73CFB /* small_dot.png in Resources */,
 				236F7CB2127276EA0010501E /* background_texture.png in Resources */,
 				23E7B2FA1288056C00C96CD9 /* placeholder.png in Resources */,
@@ -600,12 +600,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TouchPainter_Prefix.pch;
 				INFOPLIST_FILE = "TouchPainter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_NAME = TouchPainter;
 			};
 			name = Debug;
@@ -614,10 +618,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TouchPainter_Prefix.pch;
 				INFOPLIST_FILE = "TouchPainter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_NAME = TouchPainter;
 				VALIDATE_PRODUCT = YES;
 			};

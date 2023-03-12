@@ -34,7 +34,8 @@
   // return the location of the first child
   if ([children_ count] > 0)
   {
-    return [[children_ objectAtIndex:0] location];
+      id<Mark>child = [children_ objectAtIndex:0];
+      return [child location];
   }
   
   // otherwise returns the origin
