@@ -146,8 +146,8 @@
 		86D2C74F29BEBF6200EC89AA = {
 			isa = PBXGroup;
 			children = (
-				86D2C75A29BEBF6200EC89AA /* TouchPainter */,
 				86D2C75929BEBF6200EC89AA /* Products */,
+				86D2C75A29BEBF6200EC89AA /* TouchPainter */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,14 +162,14 @@
 		86D2C75A29BEBF6200EC89AA /* TouchPainter */ = {
 			isa = PBXGroup;
 			children = (
-				86D2C77429BEBFE800EC89AA /* Classes */,
 				86D2C75B29BEBF6200EC89AA /* AppDelegate.h */,
 				86D2C75C29BEBF6200EC89AA /* AppDelegate.m */,
-				86D2C76429BEBF6200EC89AA /* Main.storyboard */,
 				86D2C76729BEBF6300EC89AA /* Assets.xcassets */,
-				86D2C76929BEBF6300EC89AA /* LaunchScreen.storyboard */,
+				86D2C77429BEBFE800EC89AA /* Classes */,
 				86D2C76C29BEBF6300EC89AA /* Info.plist */,
+				86D2C76929BEBF6300EC89AA /* LaunchScreen.storyboard */,
 				86D2C76D29BEBF6300EC89AA /* main.m */,
+				86D2C76429BEBF6200EC89AA /* Main.storyboard */,
 			);
 			path = TouchPainter;
 			sourceTree = "<group>";
@@ -195,15 +195,15 @@
 		86D2C77529BEBFE800EC89AA /* Composite Prototype Iterator */ = {
 			isa = PBXGroup;
 			children = (
-				86D2C77629BEBFE800EC89AA /* Vertex.h */,
+				86D2C77C29BEBFE800EC89AA /* Dot.h */,
 				86D2C77729BEBFE800EC89AA /* Dot.m */,
 				86D2C77829BEBFE800EC89AA /* Mark.h */,
 				86D2C77929BEBFE800EC89AA /* PrototypeController.h */,
-				86D2C77A29BEBFE800EC89AA /* Stroke.h */,
-				86D2C77B29BEBFE800EC89AA /* Vertex.m */,
-				86D2C77C29BEBFE800EC89AA /* Dot.h */,
-				86D2C77D29BEBFE800EC89AA /* Stroke.m */,
 				86D2C77E29BEBFE800EC89AA /* PrototypeController.m */,
+				86D2C77A29BEBFE800EC89AA /* Stroke.h */,
+				86D2C77D29BEBFE800EC89AA /* Stroke.m */,
+				86D2C77629BEBFE800EC89AA /* Vertex.h */,
+				86D2C77B29BEBFE800EC89AA /* Vertex.m */,
 			);
 			path = "Composite Prototype Iterator";
 			sourceTree = "<group>";
@@ -211,11 +211,11 @@
 		86D2C77F29BEBFE800EC89AA /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
-				86D2C78029BEBFE800EC89AA /* ScribbleThumbnailView.h */,
-				86D2C78129BEBFE800EC89AA /* ScribbleThumbnailViewImageProxy.h */,
 				86D2C78229BEBFE800EC89AA /* ScribbleSource.h */,
-				86D2C78329BEBFE800EC89AA /* ScribbleThumbnailViewImageProxy.m */,
+				86D2C78029BEBFE800EC89AA /* ScribbleThumbnailView.h */,
 				86D2C78429BEBFE800EC89AA /* ScribbleThumbnailView.m */,
+				86D2C78129BEBFE800EC89AA /* ScribbleThumbnailViewImageProxy.h */,
+				86D2C78329BEBFE800EC89AA /* ScribbleThumbnailViewImageProxy.m */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -243,10 +243,10 @@
 		86D2C78A29BEBFE800EC89AA /* ThumbnailViewController */ = {
 			isa = PBXGroup;
 			children = (
-				86D2C78B29BEBFE800EC89AA /* ThumbnailViewController.m */,
-				86D2C78C29BEBFE800EC89AA /* ThumbnailViewController.xib */,
 				86D2C78D29BEBFE800EC89AA /* Scribble Thumbnail Cell */,
 				86D2C79029BEBFE800EC89AA /* ThumbnailViewController.h */,
+				86D2C78B29BEBFE800EC89AA /* ThumbnailViewController.m */,
+				86D2C78C29BEBFE800EC89AA /* ThumbnailViewController.xib */,
 			);
 			path = ThumbnailViewController;
 			sourceTree = "<group>";
@@ -320,9 +320,9 @@
 		86D2C7A229BEBFE800EC89AA /* Iterator */ = {
 			isa = PBXGroup;
 			children = (
+				86D2C7A529BEBFE800EC89AA /* MarkEnumerator.h */,
 				86D2C7A329BEBFE800EC89AA /* MarkEnumerator.m */,
 				86D2C7A429BEBFE800EC89AA /* MarkEnumerator+Internal.h */,
-				86D2C7A529BEBFE800EC89AA /* MarkEnumerator.h */,
 			);
 			path = Iterator;
 			sourceTree = "<group>";
@@ -330,12 +330,12 @@
 		86D2C7A629BEBFE800EC89AA /* Factory Method */ = {
 			isa = PBXGroup;
 			children = (
-				86D2C7A729BEBFE800EC89AA /* PaperCanvasViewGenerator.h */,
-				86D2C7A829BEBFE800EC89AA /* CanvasViewGenerator.m */,
-				86D2C7A929BEBFE800EC89AA /* ClothCanvasViewGenerator.m */,
 				86D2C7AA29BEBFE800EC89AA /* CanvasViewGenerator.h */,
-				86D2C7AB29BEBFE800EC89AA /* PaperCanvasViewGenerator.m */,
+				86D2C7A829BEBFE800EC89AA /* CanvasViewGenerator.m */,
 				86D2C7AC29BEBFE800EC89AA /* ClothCanvasViewGenerator.h */,
+				86D2C7A929BEBFE800EC89AA /* ClothCanvasViewGenerator.m */,
+				86D2C7A729BEBFE800EC89AA /* PaperCanvasViewGenerator.h */,
+				86D2C7AB29BEBFE800EC89AA /* PaperCanvasViewGenerator.m */,
 			);
 			path = "Factory Method";
 			sourceTree = "<group>";
@@ -353,18 +353,18 @@
 		86D2C7B129BEBFE800EC89AA /* Command */ = {
 			isa = PBXGroup;
 			children = (
-				86D2C7B229BEBFE800EC89AA /* SetStrokeColorCommand.h */,
-				86D2C7B329BEBFE800EC89AA /* SaveScribbleCommand.h */,
-				86D2C7B429BEBFE800EC89AA /* Command.m */,
-				86D2C7B529BEBFE800EC89AA /* DeleteScribbleCommand.m */,
-				86D2C7B629BEBFE800EC89AA /* OpenScribbleCommand.m */,
-				86D2C7B729BEBFE800EC89AA /* SetStrokeSizeCommand.h */,
-				86D2C7B829BEBFE800EC89AA /* SetStrokeColorCommand.m */,
-				86D2C7B929BEBFE800EC89AA /* SaveScribbleCommand.m */,
-				86D2C7BA29BEBFE800EC89AA /* DeleteScribbleCommand.h */,
 				86D2C7BB29BEBFE800EC89AA /* Command.h */,
-				86D2C7BC29BEBFE800EC89AA /* SetStrokeSizeCommand.m */,
+				86D2C7B429BEBFE800EC89AA /* Command.m */,
+				86D2C7BA29BEBFE800EC89AA /* DeleteScribbleCommand.h */,
+				86D2C7B529BEBFE800EC89AA /* DeleteScribbleCommand.m */,
 				86D2C7BD29BEBFE800EC89AA /* OpenScribbleCommand.h */,
+				86D2C7B629BEBFE800EC89AA /* OpenScribbleCommand.m */,
+				86D2C7B329BEBFE800EC89AA /* SaveScribbleCommand.h */,
+				86D2C7B929BEBFE800EC89AA /* SaveScribbleCommand.m */,
+				86D2C7B229BEBFE800EC89AA /* SetStrokeColorCommand.h */,
+				86D2C7B829BEBFE800EC89AA /* SetStrokeColorCommand.m */,
+				86D2C7B729BEBFE800EC89AA /* SetStrokeSizeCommand.h */,
+				86D2C7BC29BEBFE800EC89AA /* SetStrokeSizeCommand.m */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -372,11 +372,11 @@
 		86D2C7BE29BEBFE800EC89AA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				86D2C7BF29BEBFE800EC89AA /* ClothCanvasView.m */,
-				86D2C7C029BEBFE800EC89AA /* CanvasView.m */,
-				86D2C7C129BEBFE800EC89AA /* PaperCanvasView.h */,
 				86D2C7C229BEBFE800EC89AA /* CanvasView.h */,
+				86D2C7C029BEBFE800EC89AA /* CanvasView.m */,
 				86D2C7C329BEBFE800EC89AA /* ClothCanvasView.h */,
+				86D2C7BF29BEBFE800EC89AA /* ClothCanvasView.m */,
+				86D2C7C129BEBFE800EC89AA /* PaperCanvasView.h */,
 				86D2C7C429BEBFE800EC89AA /* PaperCanvasView.m */,
 			);
 			path = Views;
@@ -394,13 +394,13 @@
 		86D2C7C829BEBFE800EC89AA /* Memento Observer */ = {
 			isa = PBXGroup;
 			children = (
-				86D2C7C929BEBFE800EC89AA /* ScribbleMemento.m */,
 				86D2C7CA29BEBFE800EC89AA /* Scribble.h */,
-				86D2C7CB29BEBFE800EC89AA /* ScribbleManager.m */,
-				86D2C7CC29BEBFE800EC89AA /* ScribbleMemento+Friend.h */,
-				86D2C7CD29BEBFE800EC89AA /* ScribbleMemento.h */,
-				86D2C7CE29BEBFE800EC89AA /* ScribbleManager.h */,
 				86D2C7CF29BEBFE800EC89AA /* Scribble.m */,
+				86D2C7CE29BEBFE800EC89AA /* ScribbleManager.h */,
+				86D2C7CB29BEBFE800EC89AA /* ScribbleManager.m */,
+				86D2C7CD29BEBFE800EC89AA /* ScribbleMemento.h */,
+				86D2C7C929BEBFE800EC89AA /* ScribbleMemento.m */,
+				86D2C7CC29BEBFE800EC89AA /* ScribbleMemento+Friend.h */,
 			);
 			path = "Memento Observer";
 			sourceTree = "<group>";
