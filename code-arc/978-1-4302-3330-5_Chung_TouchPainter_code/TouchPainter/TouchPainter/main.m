@@ -1,8 +1,8 @@
 //
 //  main.m
-//  TouchPainter-Arc
+//  TouchPainter
 //
-//  Created by xiaobing yao on 2023/3/12.
+//  Created by yxibng on 2023/3/13.
 //
 
 #import <UIKit/UIKit.h>
